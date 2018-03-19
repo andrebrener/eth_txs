@@ -49,7 +49,7 @@ def get_page_data(url):
     df = pd.DataFrame(row_dict).T.reset_index()
 
     if len(df.columns) != 8:
-        return None
+        return pd.DataFrame()
 
     df.columns = [
         'tx_hash', 'from_address', 'to_address', 'date', 'receiver', 'value',
@@ -69,7 +69,7 @@ def get_txs():
         # print(page_number)
         url = 'https://etherscan.io/txs?p={}'.format(page_number)
         page_data = get_page_data(url)
-        if page_data:
+        if not page_data.empty:
             dfs.append(page_data)
 
     final_df = pd.concat(dfs)
