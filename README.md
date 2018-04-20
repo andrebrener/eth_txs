@@ -2,7 +2,7 @@
 
 This application is a crawler that takes data from transactions that are listed in [Etherscan](https://etherscan.io/txs). It is a good way to get a sample of the Ethereum transactions without having to connect a node and download a lot of GBs of the Ethereum history.
 
-The final df is very similar to this one from Etherscan.
+The final table will look very similar to this one from Etherscan.
 
 ![img](https://i.imgur.com/Z0p2WKy.png)
 
