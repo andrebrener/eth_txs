@@ -24,9 +24,9 @@ In [constants.py](https://github.com/andrebrener/eth_txs/blob/master/python/cons
 
 It can be used mainly in two different ways:
 
-1. Run [get_eth_txs.py](https://github.com/andrebrener/eth_txs/blob/master/python/get_eth_txs.py) and the file of the transactions in Etherscan will be saved in the `data` directory.
+1. Run [get_eth_txs.py](https://github.com/andrebrener/eth_txs/blob/master/python/get_eth_txs.py) and the csv file containing Etherscan transactions will be saved in the `data` directory.
    
-By doing this, a repetition problem could exist. As blocks in Ethereum are aprox 30 seconds away, a lot of transactions are incoming in a very short period of time. As the crawler loads each page individually, maybe when page 10 is loaded, there are tx that were already seen when a previous page was loaded. 
+By doing this, **a repetition problem could exist**. As blocks in Ethereum are aproximately between 10-20 seconds away, a lot of transactions are incoming in a very short period of time. As the crawler loads each page individually, it can happen that when it loads page 10, there are tx that were already seen when a previous page was loaded. 
 
 2. Set a cron with [get_eth_txs.py](https://github.com/andrebrener/eth_txs/blob/master/python/get_eth_txs.py) and then the files will be saved in the `data` directory. With this, you'll be always watching new transactions.
 
