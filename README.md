@@ -1,6 +1,6 @@
 # Ethereum Transactions
 
-This application is a crawler that takes data from transactions that are listed in [Etherscan](https://etherscan.io/txs). It is a good way to get a sample of Ethereum transactions without having to connect a node and download all the GBs of Ethereum history.
+This application is a crawler that takes data from transactions that are listed in [Etherscan](https://etherscan.io/txs). This script is a good way to get a sample of basic Ethereum transactions information without having to connect a node and download all the GBs of Ethereum history.
 
 The final table will look very similar to this one from Etherscan.
 
