@@ -18,7 +18,7 @@ Go in the directory of the repo and run:
 ```pip install -r requirements.txt```
 
 ### 3. Insert Constants
-In [constants.py](https://github.com/andrebrener/eth_txs/blob/master/python/constants.py) you can define the maximum number of pages of Etherscan that you want to crawl.
+In [constants.py](https://github.com/andrebrener/eth_txs/blob/master/python/constants.py) you can define `MAX_PAGE_NUMBER`, that is the maximum number of pages of Etherscan that you want to crawl.
 
 ### 4. Get Data - Uses recommendations
 
