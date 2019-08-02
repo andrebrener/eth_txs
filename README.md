@@ -32,4 +32,4 @@ By doing this, **a repetition problem could exist**. As blocks in Ethereum are a
 
 The script runtime makes about 100 pages in 1 minute. So, my recommendation is to set a `MAX_PAGE_NUMBER = 100` and run the cron every minute.
 
-You can check how long the script runs in your device by decommenting the line `print("The script was {} long".format(end_time - start_time))` in [get_eth_txs.py](https://github.com/andrebrener/eth_txs/blob/master/python/get_eth_txs.py) and wathchin its print value.
+You can check how long the script runs in your device by decommenting the line `print("The script was {} long".format(end_time - start_time))` in [get_eth_txs.py](https://github.com/andrebrener/eth_txs/blob/master/python/get_eth_txs.py) and watching its print value.
